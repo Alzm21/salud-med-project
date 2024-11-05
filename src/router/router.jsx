@@ -4,6 +4,9 @@ import HomePage from "../pages/homepage/HomePage";
 import AboutUs from "../pages/aboutus/AboutUs"
 import Contact from "../pages/contactUs/Contact"
 import MedServices from "../pages/medservices/MedServices"
+import MisionVision from "../pages/aboutus/MisionVision";
+import BusinessPhilosophy from "../pages/aboutus/BusinessPhilosophy";
+import AboutUsLayout from "../layouts/AboutUsLayout";
 
 
 
@@ -18,7 +21,21 @@ export const routes = createBrowserRouter([
             },
             {
                 path: "/nosotros",
-                element: <AboutUs/>
+                element: "",
+                children: [
+                    {
+                        path: "quienes-somos",
+                        element: <AboutUs/>,
+                    },
+                    {
+                        path: "mision-vision",
+                        element: <MisionVision/> ,
+                    },
+                    {
+                        path: "filosofia-empresarial",
+                        element: <BusinessPhilosophy/> ,
+                    },
+                ]
             },
             {
                 path: "/contacto",

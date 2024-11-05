@@ -23,8 +23,19 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+    const [isAtTop, setIsAtTop] = useState(true); 
+    const handleScroll = () => { 
+      setIsAtTop(window.scrollY === 0);
+    }; 
+    useEffect(() => {
+      window.addEventListener('scroll', handleScroll); 
+      return () => {
+       window.removeEventListener('scroll', handleScroll); 
+      }; 
+    }, []);
+
   return (
-    <div className={`navbar ${isFixed? 'navbar--fixed': ''}`}>
+    <div className={isFixed || isAtTop ? 'navbar--fixed': ''}>
         <div className='navbar__logo'>
           <a href="/">
             <img src="/assets/2 LogoSALUDMED Largo sin fondo.png" alt="Salud Med Logo" />
@@ -33,7 +44,18 @@ const Navbar = () => {
           <nav>
             <ul className='navbar__menu'>
               <li className='navbar__item'><a href="/">Inicio</a></li>
-              <li className='navbar__item'><a href="/nosotros">Salud-Med</a><i className='bx bx-chevron-down'></i></li>
+
+                <li className='navbar__item navbar__dropdown'>
+                  <a href="/nosotros">Salud-Med</a>
+                  <i className='bx bx-chevron-down'></i>
+
+                  <ul className='navbar__submenu'>
+                    <li><a href="/nosotros/quienes-somos">Sobre Nosotros</a></li>
+                    <li><a href="">Misión Visión</a></li>
+                    <li><a href="">Valor Empresarial</a></li>
+                  </ul>
+                </li>
+
               <li className='navbar__item'><a href="servicios">Especialidades</a></li>
               <li className='navbar__item'><a href="">Blog</a></li>
               <li className='navbar__item'><a href="/contacto">Contáctanos</a></li>
