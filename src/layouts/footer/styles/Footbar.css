@@ -9,7 +9,7 @@
     height: 250px;
     padding: 15px 230px;
     font-size: 0.75rem;
-    background-image: url("public/assets/FONDO MARCA DE AGUA GRIS.png");
+    background-image: url("/assets/FONDO MARCA DE AGUA GRIS.png");
     background-size: cover;
 }
 

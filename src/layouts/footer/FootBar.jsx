@@ -42,11 +42,11 @@ const FootBar = () => {
         <div className='mid__content'>
           <h3>Contáctanos</h3>
           <div className='mid-icons'>
-            <a href="https://wa.me/56968113358" target='_blank' rel="noopener noreferrer"><i class='bx bxl-whatsapp'></i></a>
-            <a href="mailto:centrosalud@saludmedintegral.com?subject=Consulta&body=Muy%20buenas,%20tengo%20una%20consulta%20sobre..." target='_blank' rel="noopener noreferrer"><i class='bx bx-envelope' ></i></a>
-            <a href="https://www.instagram.com/saludmed_saludmed/" target='_blank' rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
-            <a href="#"><i class='bx bxl-youtube'></i></a>
-            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://wa.me/56968113358" target='_blank' rel="noopener noreferrer"><i className='bx bxl-whatsapp'></i></a>
+            <a href="mailto:centrosalud@saludmedintegral.com?subject=Consulta&body=Muy%20buenas,%20tengo%20una%20consulta%20sobre..." target='_blank' rel="noopener noreferrer"><i className='bx bx-envelope' ></i></a>
+            <a href="https://www.instagram.com/saludmed_saludmed/" target='_blank' rel="noopener noreferrer"><i className='bx bxl-instagram'></i></a>
+            <a href="#"><i className='bx bxl-youtube'></i></a>
+            <a href="#"><i className='bx bxl-linkedin-square'></i></a>
           </div>
         </div>
 

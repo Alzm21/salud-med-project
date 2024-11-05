@@ -1,5 +1,5 @@
 .description {
-    background-image: url("/public/assets/FONDO\ MARCA\ DE\ AGUA\ GRIS.png");
+    background-image: url("/assets/FONDO\ MARCA\ DE\ AGUA\ GRIS.png");
     background-size: contain;
 }
 
@@ -40,7 +40,7 @@
     margin-bottom: 20px;
 }
 
-.location-link {
+.content-link {
     color: #7ed957;
     font-weight: bold;
     text-decoration: none;
@@ -50,7 +50,7 @@
     transition: color 0.3s ease;
 }
 
-.location-link:hover {
+.content-link:hover {
     color: #101cc3; 
 }
 

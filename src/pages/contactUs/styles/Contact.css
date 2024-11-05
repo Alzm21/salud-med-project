@@ -161,7 +161,7 @@
     height: 200px;
     width: 200px;
     position: absolute;
-    background-image: linear-gradient(aliceblue, #00000000, aliceblue), url("/public/assets/24\ Logotipo\ CRUZ\ SinFondo.png");
+    background-image: linear-gradient(aliceblue, #00000000, aliceblue), url("/assets/24\ Logotipo\ CRUZ\ SinFondo.png");
     background-size: cover;
     bottom: 0;
     left: 3%;
