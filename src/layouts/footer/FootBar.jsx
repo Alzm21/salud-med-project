@@ -1,4 +1,4 @@
-import '../footer/styles/FootBar.css'
+import './styles/FootBar.css'
 
 const FootBar = () => {
   return (
