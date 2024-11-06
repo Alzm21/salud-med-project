@@ -1,4 +1,4 @@
-
+import './styles/FootBar.css'
 
 const FootBar = () => {
   return (
@@ -11,9 +11,9 @@ const FootBar = () => {
           <div className='top__content'>
             <h3>Nosotros</h3>
             <ul className='footbar__list'>
-              <a href="">Quienes Somos</a>
-              <a href="">Misión - Visión</a>
-              <a href="">Contáctanos</a>
+              <a href="/nosotros/quienes-somos">Quienes Somos</a>
+              <a href="/nosotros/mision-vision">Misión - Visión</a>
+              <a href="/contacto">Contáctanos</a>
             </ul>
           </div>
           <div className='top__content'>

@@ -3,90 +3,42 @@ import "./styles/Contact.css"
 
 const Contact = () => {
 
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const images = [
-    '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',
-    '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',
-    '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',
-    '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',
-    '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',
-    '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp'
-  ]
-
-  const nextSlide = () => {
-    setCurrentIndex((currentIndex + 1) % images.length)
-  }
-
-  const prevSlide = () => {
-    setCurrentIndex((currentIndex - 1 + images.length) % images.length)
-  }
-
   return (
-    <div className="about__us">
-      <div className="about__content">
-        <div className="about__title">
-          <h2>¿Quienes somos?</h2>
-          <p>"Comprometidos con tu salud y una calida atención."</p>
+    <div className="contact">
+      <div className="contact__content">
+        <div className="contact__title">
+          <h2>Estamos Aquí para Ti</h2>
+          <p>"Cerca de ti, listos para cuidar tu salud."</p>
         </div>
       </div>
 
-      <div className="main_container">
-        <div className="container one">
-          <div className="content">
-            <h2>Salud-Med</h2>
+      <div className="contact_main_container">
+        <div className="contact_container ">
+          <div className="container_description">
+            <h2>Ubicación</h2>
             <hr className="content__underline"/>
-            <p>Creemos que la salud es un derecho, no un privilegio. Nos dedicamos a brindar atención médica de calidad,
-              con un enfoque accesible y cálido, para que cada persona, sin importar su situación, reciba el cuidado que merece. 
-              Nuestra misión es cuidar y proteger la salud de quienes más lo necesitan, con profesionalismo y empatía.”
+            <p>Nos encontramos en una ubicación central y accesible, pensada para que puedas visitarnos con facilidad. 
+              Estamos aquí para ofrecerte atención médica de calidad en un entorno profesional y cercano. ¡Esperamos tu visita!
             </p>
           </div>
-          <img className="content__image" src="/images/martha-dominguez-de-gouveia-g0PTp89dumc-unsplash.webp" alt="" />
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1664.9541754853317!2d-70.61419635785464!3d-33.42563367570199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf64538449ed%3A0xbb29b38b5f9060a4!2sFidel%20Oteiza%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1sen!2sbo!4v1730900678002!5m2!1sen!2sbo" 
+            width="800" 
+            height="600" 
+            style={{border:0}} 
+            allowFullScreen="" 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
-
-        <div className="container two">
-          <div className="content">
-            <h2>Nuestra Historia</h2>
-            <hr className="content__underline"/>
-            <p className="two_description">
-              “Salud-Med fue fundado el (insertar fecha) con el propósito de cerrar la brecha en el acceso a servicios médicos para las personas que más lo requieren. 
-              Desde nuestros inicios, hemos trabajado por ser un espacio en el que cada paciente se sienta valorado, respetado y 
-              atendido con la misma dedicación que brindamos a nuestras propias familias.”
-            </p>
-          </div>
-          <div className="img__container">
-            <img className="content__image a" src="public/images/about_us_01.jpeg" alt="" />
-            <img className="content__image b" src="public/images/about_us_03.jpeg" alt="" />
-            <img className="content__image c" src="public/images/about_us_02.jpeg" alt="" />
-          </div>
-        </div>
-        <div className="container three">
-          <div className="content">
-            <h2>Nuestro Equipo</h2>
-            <hr className="content__underline"/>
+        <div className="contact_container bottom">
+          <i className='bx bxs-map'></i>
           <p>
-            Nuestro equipo está compuesto por profesionales dedicados y experimentados que, además de su preparación, comparten la visión de un cuidado cercano y accesible. 
-            Cada miembro de Salud-Med contribuye a un ambiente en el que la excelencia y la calidez humana son esenciales.
+            Fidel Oteiza 1916, Providencia Santiago
           </p>
-          </div>
-          <div className="carousel">
-
-            <div className="carousel__track" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
-              {images.map((img, index) => (
-                <img key={index} src={img} alt={`Slide ${index + 1}`} className="carousel__image" />
-              ))}
-            </div>
-
-            <button className="carousel__btn carousel__btn--prev" onClick={prevSlide}>❮</button>
-            <button className="carousel__btn carousel__btn--next" onClick={nextSlide}>❯</button>
-          </div>
-        </div>
-        <div className="container four">
-          <p>
-            "En nombre de Salud-Med, estamos comprometidos con el cuidado de tu salud y la de tu familia. Sabemos que la salud no es solo física: es el pilar fundamental para alcanzar 
-            tus sueños, cumplir tus metas y disfrutar plenamente de la vida que mereces."
-          </p>
-          <div className="four_img_a"></div>
-          <div className="four_img_b"></div>
+          <i className='bx bxs-phone' ></i>
+          <p>+569 6811 3358</p>
+          <div className="bottom_img_a"></div>
+          <div className="bottom_img_b"></div>
         </div>
       </div>
         

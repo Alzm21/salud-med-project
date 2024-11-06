@@ -6,7 +6,6 @@ import Contact from "../pages/contactUs/Contact"
 import MedServices from "../pages/medservices/MedServices"
 import MisionVision from "../pages/aboutus/MisionVision";
 import BusinessPhilosophy from "../pages/aboutus/BusinessPhilosophy";
-import AboutUsLayout from "../layouts/AboutUsLayout";
 
 
 
