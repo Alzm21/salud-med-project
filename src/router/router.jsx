@@ -37,13 +37,13 @@ export const routes = createBrowserRouter([
                 ]
             },
             {
+                path: "/servicios",
+                element: <MedServices/>
+            },
+            {
                 path: "/contacto",
                 element: <Contact/>
             },
-            {
-                path: "/servicios",
-                element: <MedServices/>
-            }
         ]
     }
 ])

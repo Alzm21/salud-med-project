@@ -56,7 +56,7 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-              <li className='navbar__item'><a href="servicios">Especialidades</a></li>
+              <li className='navbar__item'><a href="">Especialidades</a></li>
               <li className='navbar__item'><a href="">Blog</a></li>
               <li className='navbar__item'><a href="/contacto">Contáctanos</a></li>
             </ul>
