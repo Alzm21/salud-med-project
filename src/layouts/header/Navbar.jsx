@@ -51,8 +51,8 @@ const Navbar = () => {
 
                   <ul className='navbar__submenu'>
                     <li><a href="/nosotros/quienes-somos">Sobre Nosotros</a></li>
-                    <li><a href="">Misión Visión</a></li>
-                    <li><a href="">Valor Empresarial</a></li>
+                    <li><a href="/nosotros/mision-vision">Misión Visión</a></li>
+                    <li><a href="/nosotros/filosofia-empresarial">Valor Empresarial</a></li>
                   </ul>
                 </li>
 
