@@ -6,7 +6,7 @@ const Services = () => {
       <div className="services__container">
         <h1 className="services__main-title">Servicios Médicos</h1>
         <div className="services-container">
-          <div>
+          <div className="item__container">
             <div className="service__icon">
               <img src="/icons/examination.png" alt="" />
             </div>
@@ -21,7 +21,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div>
+          <div className="item__container">
             <div className="service__icon">
               <img src="/icons/gynecology@2x.png" alt="" />
             </div>
@@ -36,7 +36,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div>
+          <div className="item__container">
             <div className="service__icon">
               <img src="/icons/pediatrics@2x.png" alt="" />
             </div>
@@ -51,7 +51,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div>
+          <div className="item__container">
             <div className="service__icon">
               <img src="/icons/general_surgery@2x.png" alt="" />
             </div>
@@ -65,7 +65,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div>
+          <div className="item__container">
             <div className="service__icon">
               <img src="/icons/biochemistry_laboratory@2x.png" alt="" />
             </div>
@@ -79,7 +79,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div>
+          <div className="item__container">
             <div className="service__icon">
               <img src="/icons/odontology@2x.png" alt="" />
             </div>

@@ -6,11 +6,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr;
     grid-template-rows: auto;
-    height: 250px;
     padding: 15px 230px;
     font-size: 0.75rem;
     background-image: url("/assets/FONDO MARCA DE AGUA GRIS.png");
     background-size: cover;
+    text-align: center;
 }
 
 .footbar__logo img{
@@ -34,7 +34,6 @@
     gap: 5px;
     background-color: rgba(240, 248, 255, 0.616);
     border-radius: 15px;
-    padding: 10px;
 }
 
 .footbar__list a {
@@ -61,14 +60,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 500px;
 }
 
 .mid-icons {
     font-size: 1.75rem;
     display: flex;
-    justify-content: space-evenly;
-    
+    gap: 25px;
 }
 
 .mid-icons a{
@@ -84,4 +81,65 @@
     height: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-top: 1px solid aliceblue;
+}
+
+/* ----------------- Media Querys ----------------- */
+
+@media (max-width: 1200px) {
+
+    .footer__top {
+        font-size: 0.65rem;
+        padding: 15px 150px;
+    }
+    .footer__middle {
+        font-size: 0.8rem;
+    }
+    .footer__bottom {
+        font-size: 0.8rem;
+    }
+    .mid-icons {
+        font-size: 1.55rem;
+        
+    }
+}
+@media (max-width: 992px) {
+
+    .footer__top {
+        padding: 15px 20px;
+    }
+    .top__content {
+        padding-top: 25px;
+    }
+}
+@media (max-width: 768px) {
+
+    .footer__top {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;    
+    }
+    .footbar__logo {
+        padding-bottom: 25px;
+    }
+    .footer__middle {
+        flex-wrap: wrap;
+    }
+    .mid__content {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width: 576px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__middle {
+        font-size: 1rem;
+        text-align: center;
+    }
 }

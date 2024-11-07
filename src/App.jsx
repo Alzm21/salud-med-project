@@ -1,3 +1,4 @@
+import React from 'react'
 import { RouterProvider } from 'react-router-dom'
 import { routes } from './router/router'
 import './App.css'
@@ -9,6 +10,7 @@ function App() {
     <>
       <RouterProvider router = { routes } />
     </>
+
   )
 }
 

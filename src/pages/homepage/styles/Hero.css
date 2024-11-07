@@ -1,15 +1,17 @@
 
 .hero {
     background-color: aliceblue;
-    background-image: linear-gradient(to bottom, #797979c2, #1f1f49a4, #797979c2), url("/images/jeshoots-com-l0j0DHVWcIE-unsplash.webp");
+    background-image: linear-gradient(to bottom, #797979c2, #1f1f49a4, #797979c2), url("/images/national-cancer-institute-1c8sj2IO2I4-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 100dvh;
+    height: 85dvh;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 60px;
+    animation: fadeInBackground 1.5s ease-in-out;
 }
 
 .hero__title {
@@ -17,6 +19,7 @@
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .hero__content {
@@ -25,13 +28,14 @@
     margin-bottom: 30px;
     line-height: 1.5;
     color: #ffffff;
+    text-align: center;
 }
 
 .hero__button {
     padding: 12px 24px;
     font-size: 1.2rem;
     color: #ffffff; 
-    background-color: #2c3e50; 
+    background-color: #101cc396; 
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -40,6 +44,38 @@
 }
   
   .hero__button:hover {
-    background-color: #7ed957;
+    background-color: #f0f8ffd8;
     color: #101cc3;
+}
+
+/* ----------------- Media Querys ----------------- */
+
+@media (max-width: 1200px) {
+
+    .hero__title {
+        font-size: 2rem;
+    }
+
+    .hero__content {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 992px) {
+
+    .hero__title {
+        font-size: 1.5rem;
+    }
+
+    .hero__content {
+        font-size: 1.1rem;
+    }
+    .hero__button {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+ 
 }

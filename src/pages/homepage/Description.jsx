@@ -19,7 +19,7 @@ const Description = () => {
           </div>
       </section>
       <section className="content-section">
-        <div className="content-section">
+        <div className="content-image">
           <img src="/images/lucas-vasques-9vnACvX2748-unsplash.webp" alt="" />
         </div>
         <div className="content-container">
