@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./styles/Description.css"
 
 const Description = () => {
@@ -12,7 +13,7 @@ const Description = () => {
             Nuestro compromiso es brindar un servicio médico profesional, con una calidez humana que hace la diferencia.
             Nos dedicamos a cuidar a quienes más lo necesitan.
           </p>
-          <a href="/nosotros/quienes-somos" className="content-link">Conoce sobre nosotros →</a>
+          <Link to="/nosotros/quienes-somos" className="content-link">Conoce sobre nosotros →</Link>
         </div>
           <div className="content-image">
             <img src="/images/martha-dominguez-de-gouveia-nMyM7fxpokE-unsplash.webp" alt="" />
@@ -29,7 +30,7 @@ const Description = () => {
             Nos esforzamos para que cada paciente se sienta seguro, atendido y valorado. Porque la salud no es un privilegio,
             es un derecho. Nuestro equipo está aquí para servirte con dedicación y experiencia, cuidando cada aspecto de tu bienestar.
           </p>
-          <a href="/contacto" className="content-link">Encuentranos en →</a>
+          <Link to="/contacto" className="content-link">Encuentranos en →</Link>
         </div>
       </section>
     </div>
