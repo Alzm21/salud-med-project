@@ -1,6 +1,6 @@
-import { useState, useRef, useEffect} from 'react'
-import './styles/Navbar.css'
 import { Link } from 'react-router-dom'
+import React, { useState, useRef, useEffect} from 'react'
+import './styles/Navbar.css'
 
 const Navbar = () => {
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                 </li>
               <li className='navbar__item'><Link to='/servicios' >Especialidades</Link></li>
               <li className='navbar__item'><Link to='' >Blog</Link></li>
-              <li className='navbar__item'><Link to='/contacto' >Contáctanos</Link></li>
+              <li className='navbar__item'><Link to='./contacto' >Contáctanos</Link></li>
             </ul>
           </nav>
             <button className='navbar__toggle' onClick={toggleMenu}>
