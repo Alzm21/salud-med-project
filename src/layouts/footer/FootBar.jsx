@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles/Footbar.css'
+import { Link } from 'react-router-dom'
 
 const FootBar = () => {
     return (
@@ -12,9 +13,9 @@ const FootBar = () => {
               <div className='top__content'>
                 <h3>Nosotros</h3>
                 <ul className='footbar__list'>
-                  <a href="/nosotros/quienes-somos">Quienes Somos</a>
-                  <a href="/nosotros/mision-vision">Misión - Visión</a>
-                  <a href="/contacto">Contáctanos</a>
+                  <Link to="/nosotros/quienes-somos">Quienes Somos</Link>
+                  <Link to="/nosotros/mision-vision">Misión - Visión</Link>
+                  <Link to="/contacto">Contáctanos</Link>
                 </ul>
               </div>
               <div className='top__content'>

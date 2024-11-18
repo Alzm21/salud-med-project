@@ -1,6 +1,6 @@
-
 import { useState, useRef, useEffect} from 'react'
 import './styles/Navbar.css'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -45,27 +45,27 @@ const Navbar = () => {
   return (
     <div className= 'navbar--fixed'> {/* {isFixed || isAtTop ? */}
         <div className='navbar__logo'>
-          <a href="/">
+          <Link to='/' >
             <img src="/assets/2 LogoSALUDMED Largo sin fondo.png" alt="Salud Med Logo" />
-          </a>
+          </Link>
         </div>
-
+          
           <nav className='navbar__container'>
             <ul className={`navbar__menu ${isOpen ? 'navbar__menu--open' : ''}`}>
-              <li className='navbar__item'><a href="/">Inicio</a></li>
+              <li className='navbar__item'><Link to='/' >Inicio</Link></li>
                 <li className='navbar__item navbar__dropdown'>
                   <a href="/nosotros">Salud-Med</a>
                   <i className='bx bx-chevron-down'></i>
 
                   <ul className='navbar__submenu'>
-                    <li><a href="/nosotros/quienes-somos">Sobre Nosotros</a></li>
-                    <li><a href="/nosotros/mision-vision">Misión Visión</a></li>
-                    <li><a href="/nosotros/filosofia-empresarial">Valor Empresarial</a></li>
+                    <li><Link to="/nosotros/quienes-somos">Sobre Nosotros</Link></li>
+                    <li><Link to="/nosotros/mision-vision">Misión Visión</Link></li>
+                    <li><Link to="/nosotros/filosofia-empresarial">Valor Empresarial</Link></li>
                   </ul>
                 </li>
-              <li className='navbar__item'><a href="">Especialidades</a></li>
-              <li className='navbar__item'><a href="">Blog</a></li>
-              <li className='navbar__item'><a href="/contacto">Contáctanos</a></li>
+              <li className='navbar__item'><Link to='/servicios' >Especialidades</Link></li>
+              <li className='navbar__item'><Link to='' >Blog</Link></li>
+              <li className='navbar__item'><Link to='/contacto' >Contáctanos</Link></li>
             </ul>
           </nav>
             <button className='navbar__toggle' onClick={toggleMenu}>
