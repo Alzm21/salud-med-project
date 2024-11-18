@@ -3,10 +3,10 @@ import Navbar from "./header/Navbar"
 import FootBar from "./footer/FootBar"
 
 
-const Applayout = ({ children }) => {
+const Applayout = () => {
   return (
     <div>
-        <Navbar/> {/* Header */}
+        <Navbar/>
         <div className="main-structure">
             <Outlet/>
         </div>
