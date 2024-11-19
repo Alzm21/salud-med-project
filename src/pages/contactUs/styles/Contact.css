@@ -2,19 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .contact__content {
     width: 100%;
-    height: 500px;
+    height: 50dvh;
     background-image: url("/public/images/salud-med-building.png");
     background-position: 100% 85%;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact__title {
-    margin: 250px 450px 135px 450px;
-    padding: 20px 0;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,18 +28,21 @@
 }
 
 .contact_main_container {
-    padding: 20px 0;
+    padding: 20px 0px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: relative;
     background-color: aliceblue;
 }
 
 .contact_container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 40px 250px 0;
+    padding: 0 150px;
     gap: 50px;
 }
 
@@ -73,6 +79,22 @@
     margin-bottom: 20px;
 }
 
+.iframe-container {
+    position: relative;
+    width: 100%; 
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+
+.iframe-responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 .bottom {
     width: 100%;
     height: 400px;
@@ -88,6 +110,16 @@
 .bottom i {
     font-size: 1.5rem;
     font-family: "Agdasima", serif;
+}
+
+.contact_info {
+    display: flex;
+    gap: 20px;
+    z-index: 10;
+}
+
+.contact_info div{
+    display: flex;
 }
 
 .bottom_img_a {
@@ -108,4 +140,43 @@
     background-size: cover;
     bottom: 40%;
     left: 3%;
+}
+
+@media (max-width: 1200px) {
+    .bottom_img_a {
+        height: 200px;
+        width: 200px;
+    }
+    .bottom_img_b {
+        height: 180px;
+        width: 180px;
+        top: 10%;
+    }
+}
+@media (max-width: 992px) {
+    .contact_info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact_container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 100px;
+    }
+    .iframe-container {
+        height: 500px;
+    }
+    .bottom {
+        height: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .contact_container {
+        padding: 60px;
+    }
+}
+@media (max-width: 576px) {
+    .contact_container {
+        padding: 20px;
+    }
 }

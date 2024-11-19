@@ -1,6 +1,10 @@
+import { useState } from 'react'
 import './styles/Hero.css'
 
 const Hero = () => {
+  
+  const [currentIndex, setCurrentIndex] = useState(0)
+
   return (
     <section className='hero'>
 

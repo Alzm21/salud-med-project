@@ -15,14 +15,10 @@ const Description = () => {
           </p>
           <Link to="/nosotros/quienes-somos" className="content-link">Conoce sobre nosotros →</Link>
         </div>
-          <div className="content-image">
-            <img src="/images/martha-dominguez-de-gouveia-nMyM7fxpokE-unsplash.webp" alt="" />
-          </div>
+        <div className="content-image-01"></div>
       </section>
       <section className="content-section">
-        <div className="content-image">
-          <img src="/images/lucas-vasques-9vnACvX2748-unsplash.webp" alt="" />
-        </div>
+        <div className="content-image-02"></div>
         <div className="content-container">
           <h2 className="content-title">Atención profesional para quienes más lo necesitan</h2>
           <hr className="content-underline" />
