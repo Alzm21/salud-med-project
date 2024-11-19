@@ -2,14 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .about__content {
     width: 100%;
-    height: 500px;
-    background-image: url("/images/camilo-jimenez-vGu08RYjO-s-unsplash.webp");
-    background-position: 100% 65%;
+    height: 50dvh;
+    background-image: url("/images/salud-med-building.png");
     background-size: cover;
+    background-position: 100% 75%;
 }
 
 .about__title {
@@ -35,12 +36,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 0 250px;
     gap: 50px;
+    font-family: "Agdasima", serif;
 }
 .one {
     background-color: aliceblue;
     padding-bottom: 50px;
+    height: 600px;
 }
 
 .two {
@@ -61,6 +65,7 @@
     height: 400px;
     font-style: italic;
     line-height: 25px;
+    font-size: 1.3rem;
     position: relative;
     overflow: hidden;
 }
@@ -70,7 +75,7 @@
     font-size: 2.1rem;
 }
 
-.content__underline{
+.about__underline{
     width: 30%;
     height: 3px;
     background-color: #7ed957;
@@ -78,16 +83,29 @@
     margin-bottom: 20px;
 }
 
+.content-one {
+    font-size: 1.4rem;
+    width: 700px;
+    padding: 20px 15px;
+}
+
 .content p {
-    font-size: 1.3rem;
-    font-family: "Agdasima", serif;
-    font-weight: lighter;
+    font-size: 1.4rem;
     padding: 20px 15px;
 }
 
 .two-description {
     background-color: #f0f8ffb9;
     border-radius: 5px;
+}
+
+.content_image {
+    height: 450px;
+    width: 350px;
+}
+.content_image img {
+    border-radius: 20px;
+    height: 100%;
 }
 
 .content__image{
@@ -167,4 +185,50 @@
     background-size: cover;
     bottom: 0;
     left: 3%;
+}
+
+@media (max-width: 1200px) {
+
+    .container {
+        flex-wrap: wrap;
+        padding: 0 200px;
+    }
+    .one {
+        height: 850px;
+        gap: 10px;
+    }
+    .content_four {
+        text-align: center;
+        width: 80%;
+    }
+
+}
+@media (max-width: 992px) {
+
+    .container {
+        padding: 0 150px;
+    }
+    .content_four {
+        width: 70%;
+    }
+
+}
+@media (max-width: 768px) {
+    .four_img_a {
+        height: 200px;
+        width: 200px;
+    }
+    .four_img_b {
+        height: 150px;
+        width: 150px;
+    }
+    .content_four {
+        font-size: 1.8rem;
+    }
+    
+}
+@media (max-width: 576px) {
+    .container {
+        padding: 0 100px;
+    }
 }

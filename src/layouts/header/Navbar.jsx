@@ -1,50 +1,31 @@
 
-import { useState, useRef, useEffect} from 'react'
+import { useState, useEffect} from 'react'
 import './styles/Navbar.css'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-
-  const [isFixed, setIsFixed] = useState(false)
-  const pScrollPos = useRef(window.scrollY)
-
+  
   const [isOpen, setIsOpen] = useState(false)
+  const [isAtTop, setIsAtTop] = useState(true);
 
-  // Fixed navbar and deploy at upscroll funcionality
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
-      if (pScrollPos.current > currentScrollPos) {
-        setIsFixed(true);
-      } else {
-        setIsFixed(false);
-      }
-      pScrollPos.current = currentScrollPos
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-    const [isAtTop, setIsAtTop] = useState(true); 
-    const handleScroll = () => { 
-      setIsAtTop(window.scrollY === 0);
-    }; 
-    useEffect(() => {
-      window.addEventListener('scroll', handleScroll); 
-      return () => {
-       window.removeEventListener('scroll', handleScroll); 
-      }; 
-    }, []);
-
-    //Hamburger menu functionality
-    const toggleMenu = () => {
-      setIsOpen(prevState => !prevState)
+      setIsAtTop(window.scrollY === 0)
     }
 
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, []);
+  
+  //Hamburger menu functionality
+  const toggleMenu = () => {
+    setIsOpen(prevState => !prevState)
+  }
+
   return (
-    <div className= 'navbar--fixed'> {/* {isFixed || isAtTop ? */}
+    <div className = {`navbar ${!isAtTop ? 'navbar--fixed' : ''}`}>
         <div className='navbar__logo'>
           <Link to="/">
             <img src="/assets/2 LogoSALUDMED Largo sin fondo.png" alt="Salud Med Logo" />

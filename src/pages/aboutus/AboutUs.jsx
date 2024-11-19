@@ -32,21 +32,23 @@ const AboutUs = () => {
 
       <div className="main_container">
         <div className="container one">
-          <div className="content">
+          <div className="content-one">
             <h2>Salud-Med</h2>
-            <hr className="content__underline"/>
+            <hr className="about__underline"/>
             <p>Creemos que la salud es un derecho, no un privilegio. Nos dedicamos a brindar atención médica de calidad,
               con un enfoque accesible y cálido, para que cada persona, sin importar su situación, reciba el cuidado que merece. 
               Nuestra misión es cuidar y proteger la salud de quienes más lo necesitan, con profesionalismo y empatía.”
             </p>
           </div>
-          <img className="content__image" src="/images/x.jpeg" alt="" />
+          <div className="content_image">
+            <img src="/images/x.jpeg" alt="" />
+          </div>
         </div>
 
         <div className="container two">
           <div className="content">
             <h2>Nuestra Historia</h2>
-            <hr className="content__underline"/>
+            <hr className="about__underline"/>
             <p className="two-description">
               “Salud-Med fue fundado el (insertar fecha) con el propósito de cerrar la brecha en el acceso a servicios médicos para las personas que más lo requieren. 
               Desde nuestros inicios, hemos trabajado por ser un espacio en el que cada paciente se sienta valorado, respetado y 
@@ -68,7 +70,7 @@ const AboutUs = () => {
         <div className="container three">
           <div className="content">
             <h2>Nuestro Equipo</h2>
-            <hr className="content__underline"/>
+            <hr className="about__underline"/>
           <p>
             Nuestro equipo está compuesto por profesionales dedicados y experimentados que, además de su preparación, comparten la visión de un cuidado cercano y accesible. 
             Cada miembro de Salud-Med contribuye a un ambiente en el que la excelencia y la calidez humana son esenciales. <br /> <br />
@@ -89,7 +91,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="container four">
-          <div className="content">
+          <div className="content_four">
             <p>
               "En nombre de Salud-Med, estamos comprometidos con el cuidado de tu salud y la de tu familia. Sabemos que la salud no es solo física: es el pilar fundamental para alcanzar 
               tus sueños, cumplir tus metas y disfrutar plenamente de la vida que mereces."
