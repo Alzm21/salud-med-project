@@ -6,7 +6,7 @@
 .content-section {
     display: flex;
     align-items: center;
-    max-width: 1350px;
+    max-width: 1250px;
     margin: 50px auto;
     background-color: rgba(240, 248, 255, 0.678);
     overflow: hidden;
@@ -15,6 +15,7 @@
 
 .content-container {
     padding: 40px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +29,7 @@
 }
 
 .content-underline {
-    width: 50%;
+    width: 80%;
     height: 3px;
     background-color: var(--secondary-color-2);
     border: none;
@@ -40,15 +41,20 @@
     color: #333;
     line-height: 1.5;
     margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: "Agdasima", serif;
+    font-style: normal;
 }
 
 .content-image {
-    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .content-image img {
     border-radius: 15px;
+    height: 380px;
 }
 
 .content-link {

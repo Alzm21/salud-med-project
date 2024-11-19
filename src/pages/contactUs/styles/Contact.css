@@ -7,8 +7,8 @@
 .contact__content {
     width: 100%;
     height: 500px;
-    background-image: url("/images/camilo-jimenez-vGu08RYjO-s-unsplash.webp");
-    background-position: 100% 65%;
+    background-image: url("/public/images/salud-med-building.png");
+    background-position: 100% 85%;
     background-size: cover;
 }
 
@@ -29,18 +29,22 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    background-color: aliceblue;
 }
 
 .contact_container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 250px;
+    padding: 40px 250px 0;
     gap: 50px;
 }
 
 .contact_container p{
     line-height: 25px;
+    font-family: "Agdasima", serif;
+    font-style: normal;
+    font-size: 1.4rem;
 }
 
 .container_description{
@@ -53,16 +57,12 @@
 }
 
 .container_description p {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
+    font-family: "Agdasima", serif;
     font-weight: lighter;
+    line-height: 45px;
     padding: 20px 0;
-}
 
-.two {
-    background-image: linear-gradient( aliceblue, #4149c56c, aliceblue), url("/assets/FONDO\ MARCA\ DE\ AGUA\ AZUL.png");
-    background-size: cover;
-    flex-direction: column;
-    padding-bottom: 40px;
 }
 
 .content__underline{
@@ -87,6 +87,7 @@
 
 .bottom i {
     font-size: 1.5rem;
+    font-family: "Agdasima", serif;
 }
 
 .bottom_img_a {

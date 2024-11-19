@@ -40,14 +40,14 @@ const AboutUs = () => {
               Nuestra misión es cuidar y proteger la salud de quienes más lo necesitan, con profesionalismo y empatía.”
             </p>
           </div>
-          <img className="content__image" src="/images/martha-dominguez-de-gouveia-g0PTp89dumc-unsplash.webp" alt="" />
+          <img className="content__image" src="/images/x.jpeg" alt="" />
         </div>
 
         <div className="container two">
           <div className="content">
             <h2>Nuestra Historia</h2>
             <hr className="content__underline"/>
-            <p className="two_description">
+            <p className="two-description">
               “Salud-Med fue fundado el (insertar fecha) con el propósito de cerrar la brecha en el acceso a servicios médicos para las personas que más lo requieren. 
               Desde nuestros inicios, hemos trabajado por ser un espacio en el que cada paciente se sienta valorado, respetado y 
               atendido con la misma dedicación que brindamos a nuestras propias familias.”
@@ -56,7 +56,13 @@ const AboutUs = () => {
           <div className="img__container">
             <img className="content__image a" src="/images/about_us_01.jpeg" alt="about01" />
             <img className="content__image b" src="/images/about_us_03.jpeg" alt="about02" />
+          </div>
+            <p className="two-description">
+              “Acá irá más contenido relacionado a la historia y fundación del centro de salud”
+            </p>
+          <div className="img__container">
             <img className="content__image c" src="/images/about_us_02.jpeg" alt="about03" />
+            <img className="content__image d" src="/images/about_us_04.jpeg" alt="about04" />
           </div>
         </div>
         <div className="container three">
@@ -65,7 +71,9 @@ const AboutUs = () => {
             <hr className="content__underline"/>
           <p>
             Nuestro equipo está compuesto por profesionales dedicados y experimentados que, además de su preparación, comparten la visión de un cuidado cercano y accesible. 
-            Cada miembro de Salud-Med contribuye a un ambiente en el que la excelencia y la calidez humana son esenciales.
+            Cada miembro de Salud-Med contribuye a un ambiente en el que la excelencia y la calidez humana son esenciales. <br /> <br />
+
+            (En esta sección debe ir nombre completo de cada uno de los doctores con su respectiva foto, que trabajan en el area profesional)
           </p>
           </div>
           <div className="carousel">
@@ -81,10 +89,12 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="container four">
-          <p>
-            "En nombre de Salud-Med, estamos comprometidos con el cuidado de tu salud y la de tu familia. Sabemos que la salud no es solo física: es el pilar fundamental para alcanzar 
-            tus sueños, cumplir tus metas y disfrutar plenamente de la vida que mereces."
-          </p>
+          <div className="content">
+            <p>
+              "En nombre de Salud-Med, estamos comprometidos con el cuidado de tu salud y la de tu familia. Sabemos que la salud no es solo física: es el pilar fundamental para alcanzar 
+              tus sueños, cumplir tus metas y disfrutar plenamente de la vida que mereces."
+            </p>
+          </div>
           <div className="four_img_a"></div>
           <div className="four_img_b"></div>
         </div>

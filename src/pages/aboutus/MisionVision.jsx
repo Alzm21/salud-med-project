@@ -19,14 +19,15 @@ const MisionVision = () => {
                         <i className='bx bxs-donate-heart'></i>
                     </div>
                     <p className='mision-vision__text'>
-                        Nuestra misión es brindar atención médica integral y de alta calidad a las personas que más lo necesitan. Y además nuestro compromiso constante con
-                        profesionalismo y la calidez humana. Nos enfocamos en priorizar la dignidad y el bienestar de cada paciente, ofreciendo un servicio cercano, compasivo
-                        y responsable en cada paso del proceso de atención.
+                        Nuestra misión es brindar atención médica integral, oportuna y de alta calidad a las personas que más lo necesitan, con profesionalismo y calidez humana. 
+                        Nos enfocamos en <strong>priorizar</strong> la <strong>dignidad</strong> y el <strong>bienestar</strong> de cada paciente, ofreciendo servicios accesibles 
+                        y especializados en medicina general, ginecología y obstetricia, pediatría, odontología y laboratorio clínico. Todo ello con el objetivo de promover 
+                        la salud y el bienestar de nuestros pacientes y la <strong>comunidad</strong>.
                     </p>
                 </div>
                 <div className='mision-vision__images'>
-                    <img src="/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp" alt="" />
-                    <img src="/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp" alt="" />
+                    <img src="/images/a.jpeg" alt="" />
+                    <img src="/images/g.jpeg" alt="" />
                 </div>
             </div>
 
@@ -37,14 +38,15 @@ const MisionVision = () => {
                         <i className='bx bxs-binoculars'></i>
                     </div>
                     <p className='mision-vision__text'>
-                        Ser un referente en la atención médica a nivel nacional, reconocidos por nuestra excelencia en el servicio, la calidez de nuestro equipo y nuestro impacto 
-                        positivo en las comunidades más vulnerables. Aspiramos a mejorar la calidad de vida de quienes más lo necesitan, promoviendo salud y el bienestar a través
-                        de un modelo de atención humano, innovador y comprometido con la equidad en salud
+                    Aspiramos a ser <strong>reconocidos</strong> como un referente en servicios de salud integral, destacándonos por nuestra <strong>excelencia</strong>, 
+                    <strong>calidez humana</strong> y accesibilidad. 
+                    Nuestro compromiso es mejorar la calidad de vida de quienes más lo necesitan, promoviendo la salud y el bienestar a través de un modelo de atención humano, 
+                    innovador y enfocado en la equidad.
                     </p>
                 </div>
                 <div className='mision-vision__images'>
-                    <img src="/images/national-cancer-institute-uVnRa6mOLOM-unsplash.jpg" alt="" />
-                    <img src="/images/national-cancer-institute-uVnRa6mOLOM-unsplash.jpg" alt="" />
+                    <img src="/images/i.jpeg" alt="" />
+                    <img src="/images/w.jpeg" alt="" />
                 </div>
             </div>
         </div>

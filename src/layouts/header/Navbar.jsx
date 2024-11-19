@@ -55,7 +55,7 @@ const Navbar = () => {
             <ul className={`navbar__menu ${isOpen ? 'navbar__menu--open' : ''}`}>
               <li className='navbar__item'><Link to="/">Inicio</Link></li>
                 <li className='navbar__item navbar__dropdown'>
-                  <Link to="/nosotros">Salud-Med</Link>
+                  <Link>Salud-Med</Link>
                   <i className='bx bx-chevron-down'></i>
 
                   <ul className='navbar__submenu'>
