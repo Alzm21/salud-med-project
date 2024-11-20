@@ -1,0 +1,54 @@
+.main__carousel {
+    position: relative;
+    height: 80dvh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transform: scale(1);
+    transition: opacity 1s ease, transform 5s ease;
+}
+
+.carousel__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.carousel__slide--active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.c__indicators {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.c__indicator {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.c__indicator--active {
+    background-color: var(--secondary-color);
+}

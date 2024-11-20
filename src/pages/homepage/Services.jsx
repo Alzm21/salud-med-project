@@ -14,8 +14,7 @@ const Services = () => {
               <h3 className="service__title">Medicina General</h3>
               <hr className="service-underline"/>
               <p className="service__description">
-                Atiende las necesidades de salud básicas, diagnosticando y tratando enfermedades
-                comunes en las personas. Es el primer contacto en salud y orienta a las personas
+                Es el primer contacto en salud y orienta a las personas
                 en el cuidado preventivo y la detección temprana de problemas.
               </p>
             </div>
@@ -30,8 +29,7 @@ const Services = () => {
               <hr className="service-underline"/>
               <p className="service__description">
                 Enfocado en la salud femenina, especialmente en el sistema reproductivo, embarazo
-                y salud sexual. Realiza exámenes como el Papanicolau y ayuda a la planificación
-                familiar, siendo esencial en cada etapa de la vida de la mujer.
+                y salud sexual.
               </p>
             </div>
           </div>
@@ -45,7 +43,7 @@ const Services = () => {
               <hr className="service-underline"/>
               <p className="service__description">
               Dedicada a la salud infantil desde el nacimiento hasta la adolescencia, esta especialidad 
-              asegura un desarrollo saludable, atendiendo enfermedades propias de la niñez y proporcionando 
+              asegura un desarrollo saludable y proporcionando 
               orientación a los padres.
               </p>
             </div>
@@ -59,8 +57,7 @@ const Services = () => {
               <h3 className="service__title">Medicina Estética</h3>
               <hr className="service-underline"/>
               <p className="service__description">
-              Especializada en mejorar la apariencia sin cirugía invasiva, esta área ofrece tratamientos 
-              como rejuvenecimiento facial y modelado corporal, manteniendo un enfoque en la belleza natural.
+              Especializada en mejorar la apariencia sin cirugía invasiva, manteniendo un enfoque en la belleza natural.
               </p>
             </div>
           </div>
@@ -74,7 +71,7 @@ const Services = () => {
               <hr className="service-underline"/>
               <p className="service__description">
               Realiza análisis de sangre, orina y tejidos para diagnosticar enfermedades y monitorear la salud 
-              del paciente, siendo clave en el proceso de diagnóstico médico.
+              del paciente, clave en el proceso de diagnóstico médico.
               </p>
             </div>
           </div>
@@ -88,7 +85,7 @@ const Services = () => {
               <hr className="service-underline"/>
               <p className="service__description">
               Cubre toda la salud bucal, desde la prevención hasta el tratamiento de problemas dentales y de encías. 
-              Incluye limpiezas, ortodoncia y otros procedimientos para mantener la funcionalidad y estética de la boca.
+              
               </p>
             </div>
           </div>

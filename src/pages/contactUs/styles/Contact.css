@@ -179,4 +179,25 @@
     .contact_container {
         padding: 20px;
     }
+    .bottom { 
+        height: 250px;
+    }
+    .bottom i{
+        font-size: 1.9rem;
+    }
+    .bottom_img_a {
+        height: 100px;
+        width: 100px;
+    }
+    .bottom_img_b {
+        height: 100px;
+        width: 100px; 
+    }
+    .contact__content {
+        background-position: 60%;
+    }
+    .contact_info {
+        padding: 0 25px;
+        text-align: center;
+    }
 }

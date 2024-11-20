@@ -1,5 +1,6 @@
 .footer {
     background-color: aliceblue;
+    animation: fadeInBackground 2s alternate;
 }
 
 .footer__top {

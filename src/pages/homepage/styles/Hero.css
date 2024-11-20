@@ -1,38 +1,45 @@
-
 .hero {
-    background-color: aliceblue;
-    background-image: linear-gradient(to bottom, #797979c2, #1f1f49a4, #797979c2), url("/images/national-cancer-institute-1c8sj2IO2I4-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 85dvh;
-    padding: 20px;
+    height: 75dvh;
+    width: 100%;
+    animation: fadeInBackground 1.5s ease-in-out;
+    position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
-    animation: fadeInBackground 1.5s ease-in-out;
+}
+
+.hero__container {
+    position: absolute;
+    z-index: 5;
+    animation: fadeInFromBot 1.6s ease-out forwards;
+    padding: 10px 30px;
 }
 
 .hero__title {
-    color: aliceblue;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: center;
+
 }
 
 .hero__content {
-    font-size: 1.5rem;
     max-width: 750px;
     margin-bottom: 30px;
-    line-height: 1.5;
-    color: var(--secondary-color-2);
-    text-align: center;
+    padding: 0 15px;
+    line-height: 1.2;
+    color: aliceblue;
+    filter: drop-shadow(1px 1px 1px black);
+    font-family: "Agdasima", serif;
+    font-size: 2.5rem;
+    text-align: justify;
+    background-color: rgba(104, 104, 104, 0.322);
+    border-radius: 10px;
 }
 
 .hero__button {
-    animation: fadeInFromBot 1.6s ease-out forwards;
+    
     padding: 12px 24px;
     font-size: 1.2rem;
     color: #ffffff; 
@@ -55,20 +62,21 @@
 
     .hero__title {
         font-size: 2rem;
+        font-weight: 500;
     }
 
     .hero__content {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 }
 @media (max-width: 992px) {
 
     .hero__title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .hero__content {
-        font-size: 1.1rem;
+        font-size: 1.8rem;
     }
     .hero__button {
         font-size: 1rem;

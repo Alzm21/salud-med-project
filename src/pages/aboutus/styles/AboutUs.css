@@ -116,6 +116,10 @@
     border-radius: 20px;
 }
 
+.content_four {
+    z-index: 5;
+}
+
 .img__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -230,8 +234,8 @@
         padding: 0 100px;
     }
     .four_img_a {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
     }
     .four_img_b {
         height: 100px;
@@ -244,6 +248,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .carousel {
+        width: 300px;
     }
     
 }

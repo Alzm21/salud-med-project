@@ -1,6 +1,7 @@
 .services {
-    background-image: url("/images/jesse-orrico-rmWtVQN5RzU-unsplash.webp");
+    background-image: url("/images/jeshoots-com-l0j0DHVWcIE-unsplash.webp");
     background-size: cover;
+    animation: fadeInBackground 1.6s ease-in-out;
 }
 
 .services__container {
@@ -45,7 +46,7 @@
 }
   
 .service {
-    height: 360px;
+    height: 300px;
     background-color: #ffffffbd;
     border-radius: 10px;
     padding: 15px;
@@ -99,29 +100,13 @@
 
 @media (max-width: 1200px) {
 
-    .hero__title {
-        font-size: 2rem;
-    }
-
-    .hero__content {
-        font-size: 1.4rem;
-    }
     .services__main-title {
         padding-left: 100px;
     }
 }
 @media (max-width: 992px) {
 
-    .hero__title {
-        font-size: 1.5rem;
-    }
 
-    .hero__content {
-        font-size: 1.1rem;
-    }
-    .hero__button {
-        font-size: 1rem;
-    }
 }
 @media (max-width: 768px) {
 
