@@ -1,0 +1,116 @@
+
+.offers-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.offer {
+    width: 100%;
+    padding: 40px 30px;
+    color: aliceblue;
+    background-color: lightblue;
+    text-align: right;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.offer-container {
+    display: flex;
+    flex-direction: column;
+    background-color:  #1b1b5075;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 95px;
+}
+
+.o1 {
+    background-color: #0d0d75;
+    clip-path: polygon(0% 0, 100% 0, 95% 100%, 0 100%);
+    background-image: linear-gradient(to right, #1e2e3c64, #ffffff8e), url('/public/images/medic_c.png');
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+}
+.o2 {
+    background-color: #313131;
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
+    background-image: linear-gradient(to right, #1e2e3c64, #ffffff8e), url('/public/images/w.jpeg');
+    background-size: 60% 100%;
+    background-repeat: no-repeat;  
+}
+.o3 {
+    background-color: rgb(20, 94, 212);
+    clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(to right, #1e2e3c64, #ffffff8e), url('/public/images/telemed.png');
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+}
+.o4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.offer p {
+    padding-bottom: 20px;
+}
+
+.offer a {
+    margin: 10px 0;   
+    text-decoration: none;
+    color: #0d0d75c6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+}
+.offer i {
+    font-style: normal;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.o4 .more {
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
+@media (max-width: 1200px) {
+    .offers-container {
+        flex-wrap: wrap;
+    }
+    .o1 {
+        clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .o2 {
+        clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+        background-size: 60% 100%;
+        background-repeat: no-repeat;  
+    }
+    .o3 {
+        clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+        background-size: 60% 100%;
+        background-repeat: no-repeat;
+    }
+    .offer div {   
+        width: 100%;
+        margin-left: 40px;
+    }
+}
+@media (max-width: 576px) {
+    .offer div {   
+        width: 100%;
+        margin-left: 40px;
+    }
+}

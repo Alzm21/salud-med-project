@@ -10,10 +10,9 @@ const Description = () => {
           <hr className="content-underline" />
           <p className="content-description">
             En Salud-Med, creemos que todos merecen acceso a una atención de calidad, sin excepciones.
-            Nuestro compromiso es brindar un servicio médico profesional, con una calidez humana que hace la diferencia.
-            Nos dedicamos a cuidar a quienes más lo necesitan.
+
           </p>
-          <Link to="/nosotros/quienes-somos" className="content-link">Conoce sobre nosotros →</Link>
+          <Link to="/nosotros/quienes-somos" className="content-link">CONOCE SOBRE NOSOTROS →</Link>
         </div>
         <div className="content-image-01"></div>
       </section>
@@ -24,9 +23,9 @@ const Description = () => {
           <hr className="content-underline" />
           <p className="content-description">
             Nos esforzamos para que cada paciente se sienta seguro, atendido y valorado. Porque la salud no es un privilegio,
-            es un derecho. Nuestro equipo está aquí para servirte con dedicación y experiencia, cuidando cada aspecto de tu bienestar.
+            es un derecho.
           </p>
-          <Link to="/contacto" className="content-link">Encuentranos en →</Link>
+          <Link to="/contacto" className="content-link">ENCUENTRANOS EN →</Link>
         </div>
       </section>
     </div>

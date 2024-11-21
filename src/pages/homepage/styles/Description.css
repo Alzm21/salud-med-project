@@ -1,6 +1,7 @@
 .description {
     background-image: url("/assets/FONDO\ MARCA\ DE\ AGUA\ GRIS.png");
     background-size: contain;
+    padding: 30px 0;
 }
 
 .content-section {

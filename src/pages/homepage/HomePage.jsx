@@ -1,6 +1,7 @@
 import BlogCard from "./BlogCard"
 import Description from "./Description"
 import Hero from "./Hero"
+import MedicalOffer from "./MedicalOffer"
 import Services from "./Services"
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Hero/>
       <Description/>
       <Services/>
+      <MedicalOffer/>
     </>
   )
 }
