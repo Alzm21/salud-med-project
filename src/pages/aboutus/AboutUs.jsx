@@ -5,7 +5,7 @@ const AboutUs = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const images = [
-    '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',
+    '/assets/Dra_MG.jpeg',
     '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',
     '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',
     '/images/alexandr-podvalny-tE7_jvK-_YU-unsplash.webp',

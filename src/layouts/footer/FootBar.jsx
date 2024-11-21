@@ -7,9 +7,10 @@ const FootBar = () => {
         <div className='footer'>
           <div className='footer__top'>
             <div className='footbar__logo'>
-              <img src="/assets/2 LogoSALUDMED Largo sin fondo.png" alt="" />
+              <div className='bot_logo'></div>
               <p>"Una buena salud nos da la fuerza y el enfoque para luchar por cada uno de nuestros sueños y aspiraciones."</p>
             </div>
+            <div className='footbar__container'>
               <div className='top__content'>
                 <h3>Nosotros</h3>
                 <ul className='footbar__list'>
@@ -38,6 +39,7 @@ const FootBar = () => {
                   <a href="">Artículo 4</a>
                 </ul>
               </div>
+            </div>
           </div>
     
           <div className='footer__middle'>

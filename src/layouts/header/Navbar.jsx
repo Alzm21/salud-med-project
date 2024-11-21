@@ -45,7 +45,7 @@ const Navbar = () => {
                     <li><Link to="/nosotros/filosofia-empresarial">Valor Empresarial</Link></li>
                   </ul>
                 </li>
-              <li className='navbar__item'><Link to="">Especialidades</Link></li>
+              <li className='navbar__item'><Link to="/servicios">Especialidades</Link></li>
               {/* <li className='navbar__item'><Link to="">Blog</Link></li> */}
               <li className='navbar__item'><Link to="/contacto">Contáctanos</Link></li>
             </ul>

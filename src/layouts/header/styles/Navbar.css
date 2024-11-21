@@ -16,7 +16,7 @@
 }
 .navbar .navbar__menu {
   color: aliceblue;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 .navbar--fixed {
@@ -99,14 +99,17 @@
 
 .navbar__item a {
   position: relative;
-  color: var(--primary-color); 
+  color: aliceblue; 
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.3rem;
   padding: 8px 12px;
   transition: color 0.3s ease;
 }
 
 .navbar--fixed .navbar__item a {
+  color: var(--primary-color);
+}
+.navbar .navbar__item a {
   color: var(--primary-color);
 }
 
@@ -191,7 +194,7 @@
     top: 100px;
   }
   .navbar__submenu {
-    right: -20%;
+    right: 0;
   }
 }
 @media (max-width: 576px) {
@@ -204,6 +207,6 @@
     font-size: 20px;
   }
   .navbar__submenu {
-    right: -25px;
+    right: -5px;
   }
 }

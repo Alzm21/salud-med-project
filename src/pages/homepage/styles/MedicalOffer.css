@@ -3,13 +3,15 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    background-color: #b2dae8;
+    padding-top: 30px;
 }
 
 .offer {
     width: 100%;
     padding: 40px 30px;
     color: aliceblue;
-    background-color: lightblue;
+    background-color: #b2dae8;
     text-align: right;
     font-size: 1.4rem;
     display: flex;
@@ -21,9 +23,8 @@
     display: flex;
     flex-direction: column;
     background-color:  #1b1b5075;
-    padding: 5px;
+    padding: 15px;
     border-radius: 15px;
-    margin-left: 95px;
 }
 
 .o1 {
@@ -88,29 +89,34 @@
     .offers-container {
         flex-wrap: wrap;
     }
+    .offer-container {
+        background-color: transparent;
+    }
     .o1 {
-        clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
-        background-size: contain;
-        background-repeat: no-repeat;
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+        background-size: 50% 100%;
     }
     .o2 {
-        clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
-        background-size: 60% 100%;
-        background-repeat: no-repeat;  
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+        background-size: 50% 100%;
     }
     .o3 {
-        clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
-        background-size: 60% 100%;
-        background-repeat: no-repeat;
-    }
-    .offer div {   
-        width: 100%;
-        margin-left: 40px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        background-size: 50% 100%;
     }
 }
 @media (max-width: 576px) {
-    .offer div {   
-        width: 100%;
-        margin-left: 40px;
+    .offer-container {
+        background-color: #1b1b5075;
+        text-align: center;
+    }
+    .o1 {
+        background-size: cover;
+    }
+    .o2 {
+        background-size: cover;
+    }
+    .o3 {
+        background-size: cover;
     }
 }

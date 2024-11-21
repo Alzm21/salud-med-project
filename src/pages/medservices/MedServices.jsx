@@ -1,7 +1,10 @@
 
 const MedServices = () => {
   return (
-    <div>MedServices</div>
+    <div>
+      sadasedandjksadnkjasdasnjkdasndjkasndjkasndjkas
+      
+    </div>
   )
 }
 
