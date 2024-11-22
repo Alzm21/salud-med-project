@@ -20,29 +20,23 @@ export const routes = createBrowserRouter([
             },
             {
                 path: "/nosotros",
-                element: "",
                 children: [
                     {
-                        path: "quienes-somos",
-                        element: <AboutUs/>,
+                        path: "quienes-somos", element: <AboutUs/>,
                     },
                     {
-                        path: "mision-vision",
-                        element: <MisionVision/> ,
+                        path: "mision-vision", element: <MisionVision/> ,
                     },
                     {
-                        path: "filosofia-empresarial",
-                        element: <BusinessPhilosophy/> ,
+                        path: "filosofia-empresarial", element: <BusinessPhilosophy/> ,
                     },
                 ]
             },
             {
-                path: "/servicios",
-                element: <MedServices/>
+                path: "/servicios", element: <MedServices/>
             },
             {
-                path: "/contacto",
-                element: <Contact/>
+                path: "/contacto", element: <Contact/>
             },
         ]
     }

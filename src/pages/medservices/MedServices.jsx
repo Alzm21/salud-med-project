@@ -2,7 +2,7 @@
 const MedServices = () => {
   return (
     <div>
-      sadasedandjksadnkjasdasnjkdasndjkasndjkasndjkas
+      Medical Services
       
     </div>
   )
