@@ -1,0 +1,79 @@
+.modal01_main {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000080; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 1000;
+}
+
+.modal01_subcontainer {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 50px;
+    width: 800px; 
+    max-width: 90%;
+}
+
+.modal01_img {
+    position: relative;
+}
+
+.modal01_img img {
+    border-radius: 30px;
+}
+
+.modal01-button-1 {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    background-color: aliceblue;
+    border-style: hidden;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal01_img button i {
+    color: black;
+    font-size: 2rem;
+    
+}
+
+.modal01-button-2 {
+    position: absolute;
+    right: 60px;
+    bottom: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 10px;
+    width: fit-content;
+    height: 60px;
+    border-radius: 50px;
+    border-color: aliceblue;
+    background-color: #1515eb;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 200ms ease-in-out;
+}
+
+.modal01-button-1:hover {
+    background-color: #ffffff9f;
+}
+.modal01-button-2:hover {
+    background-color: #1b1ba1;
+    transition: 200ms ease-in-out;
+}
