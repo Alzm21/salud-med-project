@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import HeroCarousel from './components/HeroCarousel'
 import './styles/Hero.css'
 
@@ -14,13 +15,15 @@ const Hero = () => {
       <div className='hero__container'>
         <h1 className='hero__title'>Salud y calidez para quienes más lo necesitan</h1>
         <p className='hero__content'>Creemos en un servicio médico donde la calidez humana y la excelencia son nuestra prioridad.</p>
-        <button className='hero__button'>Reserva una cita</button>
+        <Link to='/contacto'>
+          <button on className='hero__button'>Reserva una cita</button>
+        </Link>
       </div>
 
       <HeroCarousel images={images} />
 
     </section>
-  )
+)
 }
 
 export default Hero

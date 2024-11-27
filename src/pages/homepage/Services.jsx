@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./styles/Service.css"
 
 const Services = () => {
@@ -12,8 +13,8 @@ const Services = () => {
         <div className="services-container">
           <div className="item__container">
             <div className="service">
-              <img src="/images/y.jpeg" className="s1" alt="" />
-              <h3 className="service__title">Medicina General</h3>
+                <img src="/images/y.jpeg" className="s1" alt="" />
+                <h3 className="service__title">Medicina General</h3>
             </div>
           </div>
           <div className="item__container">

@@ -45,7 +45,6 @@
 .modal01_img button i {
     color: black;
     font-size: 2rem;
-    
 }
 
 .modal01-button-2 {
@@ -58,9 +57,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 15px 10px;
     width: fit-content;
-    height: 60px;
     border-radius: 50px;
     border-color: aliceblue;
     background-color: #1515eb;
@@ -76,4 +74,32 @@
 .modal01-button-2:hover {
     background-color: #1b1ba1;
     transition: 200ms ease-in-out;
+}
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .modal01-button-2 {
+        font-size: 1.2rem;
+        right: 20px;
+        bottom: 90px;
+    }
+}
+@media (max-width: 576px) {
+    .modal01_subcontainer {
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .modal01_img img {
+        border-radius: 10px;
+    }
+    .modal01-button-2 {
+        font-size: 0.8rem;
+        right: 10px;
+        bottom: 135px;
+    }
 }

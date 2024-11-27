@@ -32,7 +32,7 @@ const MedicalOffer = () => {
         </div>
         <div className='offer o4'>
             <p><strong>CONSULTA Y ORDENA TODOS NUESTROS SERVICIOS</strong></p>
-            <Link to='' className='more'>VER MAS</Link>
+            <Link to='/servicios' className='more'>VER MAS</Link>
         </div>
     </div>
   )
