@@ -14,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadeInFromBot 0.9s ease-out forwards;
 }
 
 .contact__title {
@@ -25,6 +26,7 @@
     color: aliceblue;
     background-color: #0d136d93;
     border-radius: 20px;
+    animation: appear 0.9s ease-out forwards;
 }
 
 .contact_main_container {
@@ -55,6 +57,7 @@
 
 .container_description{
     width: 450px;
+    animation: fadeInFromTop 0.9s ease-out forwards;
 }
 
 .container_description h2{
@@ -68,7 +71,11 @@
     font-weight: lighter;
     line-height: 45px;
     padding: 20px 0;
+}
 
+.container_description a {
+    font-size: 3.5rem;
+    color: #7ed957;
 }
 
 .content__underline{
@@ -84,6 +91,7 @@
     width: 100%; 
     padding-top: 56.25%;
     overflow: hidden;
+    animation: fadeInFromBot 0.9s ease-out forwards;
 }
 
 .iframe-responsive {

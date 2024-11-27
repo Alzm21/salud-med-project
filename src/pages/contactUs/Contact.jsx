@@ -20,6 +20,7 @@ const Contact = () => {
             <p>Nos encontramos en una ubicación central y accesible, pensada para que puedas visitarnos con facilidad. 
               Estamos aquí para ofrecerte atención médica de calidad en un entorno profesional y cercano. ¡Esperamos tu visita!
             </p>
+            <a href="https://wa.me/56968113358" target='_blank' rel="noopener noreferrer"><i className='bx bxl-whatsapp' ></i></a>
           </div>
           <div className="iframe-container">
             <iframe 

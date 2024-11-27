@@ -14,6 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadeInFromBot 0.9s ease-out forwards;
+    z-index: 5;
 }
 
 .top_row_title {
@@ -25,6 +27,7 @@
     color: aliceblue;
     background-color: #0d136d93;
     border-radius: 20px;
+    animation: appear 0.9s ease-out forwards;
 }
 
 .mision-vision__container{
@@ -44,12 +47,14 @@
     padding: 50px 50px;
     gap: 5px;
     width: 100%;
+    animation: fadeInFromTop 0.9s ease-out forwards;
 }
 
 .mision-vision__content {
     display: flex;
     flex-direction: column;
-    width: 500px;    
+    width: 500px;
+    animation: fadeInFromTop 0.9s ease-out forwards;
 }
 
 .mision-vision__title {
