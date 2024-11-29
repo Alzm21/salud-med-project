@@ -42,15 +42,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0 200px;
+    padding: 0 100px;
     gap: 50px;
     font-family: "Agdasima", serif;
 }
 .one {
     background-color: aliceblue;
-    padding-bottom: 50px;
-    height: 600px;
+    padding: 50px 20px;
     animation: fadeInFromTop 0.9s ease-out forwards;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .two {
@@ -82,7 +84,7 @@
 }
 
 .about__underline{
-    width: 30%;
+    width: 20%;
     height: 3px;
     background-color: #7ed957;
     border: none;
@@ -91,23 +93,30 @@
 
 .content-one {
     font-size: 1.4rem;
-    width: 700px;
     padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-one p{
+    max-width: 1000px;
 }
 
 .content p {
     font-size: 1.4rem;
-    padding: 20px 15px;
+    padding: 20px 0px;
 }
 
 .two-description {
     background-color: #f0f8ffb9;
     border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
 }
 
 .content_image {
-    height: 450px;
-    width: 350px;
+    height: 100%;
+    width: 450px;
 }
 .content_image img {
     border-radius: 20px;

@@ -1,6 +1,6 @@
-import React from 'react'
+import './styles/Modal04.css'
 
-const Modal04 = () => {
+const Modal04 = ({handleModal}) => {
   return (
     <div className='modal04_main'>
       <div className='modal04_subcontainer'>

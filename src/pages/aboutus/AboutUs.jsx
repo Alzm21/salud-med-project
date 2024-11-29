@@ -50,9 +50,9 @@ const AboutUs = () => {
             <h2>Nuestra Historia</h2>
             <hr className="about__underline"/>
             <p className="two-description">
-              “Salud-Med fue fundado el (insertar fecha) con el propósito de cerrar la brecha en el acceso a servicios médicos para las personas que más lo requieren. 
-              Desde nuestros inicios, hemos trabajado por ser un espacio en el que cada paciente se sienta valorado, respetado y 
-              atendido con la misma dedicación que brindamos a nuestras propias familias.”
+              Desde nuestra fundación, y con el propósito de cerrar la brecha en el acceso a servicios médicos para las personas que más lo requieren. 
+              Hemos trabajado por ser un espacio en el que cada paciente se sienta valorado, respetado y 
+              atendido con la misma dedicación que brindamos a nuestras propias familias.
             </p>
           </div>
           <div className="img__container">
@@ -60,21 +60,19 @@ const AboutUs = () => {
             <img className="content__image b" src="/images/about_us_03.jpeg" alt="about02" />
           </div>
             <p className="two-description">
-              “Acá irá más contenido relacionado a la historia y fundación del centro de salud”
+              Nuestro equipo está compuesto por profesionales dedicados y experimentados que, además de su preparación, comparten la visión de un cuidado cercano y accesible. 
+              Cada miembro de Salud-Med contribuye a un ambiente en el que la excelencia y la calidez humana son esenciales.
             </p>
           <div className="img__container">
             <img className="content__image c" src="/images/about_us_02.jpeg" alt="about03" />
             <img className="content__image d" src="/images/about_us_04.jpeg" alt="about04" />
           </div>
         </div>
-        <div className="container three">
+        {/* <div className="container three">
           <div className="content">
             <h2>Nuestro Equipo</h2>
             <hr className="about__underline"/>
           <p>
-            Nuestro equipo está compuesto por profesionales dedicados y experimentados que, además de su preparación, comparten la visión de un cuidado cercano y accesible. 
-            Cada miembro de Salud-Med contribuye a un ambiente en el que la excelencia y la calidez humana son esenciales. <br /> <br />
-
             (En esta sección debe ir nombre completo de cada uno de los doctores con su respectiva foto, que trabajan en el area profesional)
           </p>
           </div>
@@ -89,7 +87,7 @@ const AboutUs = () => {
             <button className="carousel__btn carousel__btn--prev" onClick={prevSlide}>❮</button>
             <button className="carousel__btn carousel__btn--next" onClick={nextSlide}>❯</button>
           </div>
-        </div>
+        </div> */}
         <div className="container four">
           <div className="content_four">
             <p>

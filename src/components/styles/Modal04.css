@@ -1,4 +1,4 @@
-.modal01_main {
+.modal04_main {
     position: fixed; 
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
     z-index: 1000;
 }
 
-.modal01_subcontainer {
+.modal04_subcontainer {
     background-color: aliceblue;
     padding: 20px;
     border-radius: 50px;
@@ -19,15 +19,15 @@
     max-width: 90%;
 }
 
-.modal01_img {
+.modal04_img {
     position: relative;
 }
 
-.modal01_img img {
+.modal04_img img {
     border-radius: 30px;
 }
 
-.modal01-button-1 {
+.modal04-button-1 {
     position: absolute;
     top: 30px;
     right: 50px;
@@ -42,12 +42,12 @@
     align-items: center;
 }
 
-.modal01_img button i {
+.modal04_img button i {
     color: black;
     font-size: 2rem;
 }
 
-.modal01-button-2 {
+.modal04-button-2 {
     position: absolute;
     right: 60px;
     bottom: 110px;
@@ -57,8 +57,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
     text-decoration: none;
-    padding: 15px 10px;
+    padding: 0 10px;
     width: fit-content;
+    height: 60px;
     border-radius: 50px;
     border-color: aliceblue;
     background-color: #1515eb;
@@ -68,10 +69,10 @@
     transition: 200ms ease-in-out;
 }
 
-.modal01-button-1:hover {
+.modal04-button-1:hover {
     background-color: #ffffff9f;
 }
-.modal01-button-2:hover {
+.modal04-button-2:hover {
     background-color: #1b1ba1;
     transition: 200ms ease-in-out;
 }
@@ -83,23 +84,23 @@
 
 }
 @media (max-width: 768px) {
-    .modal01-button-2 {
+    .modal04-button-2 {
         font-size: 1.2rem;
         right: 20px;
         bottom: 90px;
     }
 }
 @media (max-width: 576px) {
-    .modal01_subcontainer {
+    .modal04_subcontainer {
         padding: 5px;
         border-radius: 10px;
     }
-    .modal01_img img {
+    .modal04_img img {
         border-radius: 10px;
     }
-    .modal01-button-2 {
+    .modal04-button-2 {
         font-size: 0.8rem;
         right: 10px;
-        bottom: 25px;
+        bottom: 35px;
     }
 }
